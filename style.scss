@@ -31,7 +31,7 @@ body{
         max-width: 60rem;
     }
     .content{
-        color: rgba(255, 255, 255, 0.932);
+        color: rgb(255, 255, 255);
         padding: 5rem 2.5rem;
         z-index: 100;
         height: 100vh;
@@ -49,9 +49,9 @@ body{
             align-items: start;
             align-content: flex-start;
             grid-gap: 2rem;
-           
+            
         }
-      
+        
         .row1{
             margin: 0 0 3rem 0;
             grid-area: a;
@@ -79,12 +79,28 @@ body{
                 transition: all 0.3s;
                 overflow: hidden;
                 box-shadow: $box2;
+                i{
+                    font-size: 2.4rem;
+                }
+                .text{
+                    margin: 0 0 0 1rem;
+                    .desc{
+                        font-size: 1.2rem;
+                    }
+                }
+              
             }
-            .cta1:hover, .cta4:hover{
-                background: rgba(0, 255, 115, 0.884);
+            .clr1 {
+                background-color: rgba(0, 255, 115, 0.884);
             }
-            .cta2:hover, .cta3:hover{
+            .clr2{
                 background: rgba(0, 183, 255, 0.877);
+            }
+            .clr3{
+                background: rgba(255, 166, 0, 0.89);
+            }
+            .press{
+                animation: press 0.3s; 
             }
         }
         .row3{
@@ -97,9 +113,9 @@ body{
             align-content: center;
             grid-area: c;
             @media (min-width:500px){
-              padding: 0;
-              grid-template-columns: repeat(3, 1fr);
-              align-content: start;
+                padding: 0;
+                grid-template-columns: repeat(3, 1fr);
+                align-content: start;
             }
             @media (max-width:300px){
                 grid-template-columns: repeat(3, 1fr);
@@ -121,11 +137,47 @@ body{
                 overflow: hidden;
                 box-shadow: $box2;
                 font-size: 2.3rem;
-                &:hover{
-                    background: rgba(255, 166, 0, 0.89);
-                }
             }
-            
+
+            .clr1 {
+                background-color: rgba(0, 255, 115, 0.884);
+            }
+            .clr2{
+                background: rgba(0, 183, 255, 0.877);
+            }
+            .clr3{
+                background: rgba(255, 166, 0, 0.89);
+            }
+            .press{
+                animation: press2 0.3s; 
+            }
         }
+        
     }
+}
+@keyframes press{
+    0%{
+
+    }
+    50%{
+        height: 95%;
+        width: 95%;
+    }
+    100%{
+        height: 100%;
+        width: 100%;
+    }
+}
+@keyframes press2{
+
+    50%{
+        height: 6rem;
+        width: 6rem;
+    }
+
+    100%{
+        height: 6.5rem;
+        width: 6.5rem;
+    }
+
 }
