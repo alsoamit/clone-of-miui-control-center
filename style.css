@@ -27,7 +27,6 @@ body {
   right: 0;
   background: rgba(3, 19, 8, 0.322);
   z-index: 1;
-  max-width: 60rem;
 }
 
 .box .content {
@@ -42,7 +41,6 @@ body {
   left: 0;
   right: 0;
   overflow: hidden;
-  max-width: 60rem;
 }
 
 @media (min-width: 500px) {
