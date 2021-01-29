@@ -89,8 +89,8 @@ body {
   padding: 3.5rem 0;
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (minmax(9rem, 1fr))[auto-fit];
-      grid-template-columns: repeat(auto-fit, minmax(9rem, 1fr));
+  -ms-grid-columns: (1fr)[4];
+      grid-template-columns: repeat(4, 1fr);
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;

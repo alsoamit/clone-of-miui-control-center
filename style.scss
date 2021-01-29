@@ -67,7 +67,7 @@ body{
         .row3{
             padding: 3.5rem 0;
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(9rem,1fr));
+            grid-template-columns: repeat(4, 1fr);
             justify-content: center;
             justify-items: center;
             align-items: center;
