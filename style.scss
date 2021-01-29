@@ -17,7 +17,7 @@ html{
 body{
     height: 100vh;
     width: 100wh;
-    background: linear-gradient(to bottom, rgb(47, 68, 78), rgb(88, 7, 88));
+    background: linear-gradient(to bottom, rgb(23, 57, 73), rgb(3, 62, 73));
     font-size: 1.8rem;
     overflow: hidden;
     font-family: 'Maven Pro', sans-serif;
@@ -31,7 +31,7 @@ body{
         bottom: 0;
         left: 0;
         right: 0;
-        background: rgba(3, 19, 8, 0.671);
+        background: rgba(3, 19, 8, 0.562);
         z-index: 1;
         max-width: 60rem;
     }
@@ -79,7 +79,7 @@ body{
             .cta{
                 height: 7.5rem;
                 min-width: 100%;
-                background: rgba(77, 71, 71, 0.644);
+                background: rgba(77, 71, 71, 0.466);
                 border-radius: 1.6rem;
                 display: flex;
                 justify-content: center;
@@ -88,7 +88,7 @@ body{
                 transition: all 0.3s;
                 overflow: hidden;
                 box-shadow: $box2;
-                text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.404);
+                text-shadow: 0px 0px 3px rgba(87, 85, 85, 0.404);
 
                 i{
                     font-size: 2.4rem;
@@ -141,7 +141,7 @@ body{
                 height: 6.5rem;
                 width: 6.5rem;
                 border-radius: 50%;
-                background: rgba(77, 71, 71, 0.644);
+                background: rgba(77, 71, 71, 0.466);
                 margin: 1rem 0.7rem;
                 cursor: pointer;
                 transition: all 0.3s;
@@ -151,7 +151,7 @@ body{
                 overflow: hidden;
                 box-shadow: $box2;
                 font-size: 2.3rem;
-                text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.685);
+                text-shadow: 0px 0px 3px rgba(87, 85, 85, 0.404);
             }
 
             .clr1 {

@@ -12,8 +12,8 @@ html {
 body {
   height: 100vh;
   width: 100wh;
-  background: -webkit-gradient(linear, left top, left bottom, from(#2f444e), to(#580758));
-  background: linear-gradient(to bottom, #2f444e, #580758);
+  background: -webkit-gradient(linear, left top, left bottom, from(#173949), to(#033e49));
+  background: linear-gradient(to bottom, #173949, #033e49);
   font-size: 1.8rem;
   overflow: hidden;
   font-family: 'Maven Pro', sans-serif;
@@ -25,7 +25,7 @@ body {
   bottom: 0;
   left: 0;
   right: 0;
-  background: rgba(3, 19, 8, 0.671);
+  background: rgba(3, 19, 8, 0.562);
   z-index: 1;
   max-width: 60rem;
 }
@@ -83,7 +83,7 @@ body {
 .box .content .row2 .cta {
   height: 7.5rem;
   min-width: 100%;
-  background: rgba(77, 71, 71, 0.644);
+  background: rgba(77, 71, 71, 0.466);
   border-radius: 1.6rem;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -100,7 +100,7 @@ body {
   overflow: hidden;
   -webkit-box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
           box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
-  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.404);
+  text-shadow: 0px 0px 3px rgba(87, 85, 85, 0.404);
 }
 
 .box .content .row2 .cta i {
@@ -178,7 +178,7 @@ body {
   height: 6.5rem;
   width: 6.5rem;
   border-radius: 50%;
-  background: rgba(77, 71, 71, 0.644);
+  background: rgba(77, 71, 71, 0.466);
   margin: 1rem 0.7rem;
   cursor: pointer;
   -webkit-transition: all 0.3s;
@@ -196,7 +196,7 @@ body {
   -webkit-box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
           box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
   font-size: 2.3rem;
-  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.685);
+  text-shadow: 0px 0px 3px rgba(87, 85, 85, 0.404);
 }
 
 .box .content .row3 .clr1 {
