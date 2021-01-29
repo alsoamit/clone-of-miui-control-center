@@ -100,7 +100,7 @@ body {
   overflow: hidden;
   -webkit-box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
           box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
-  text-shadow: 0px 0px 3px rgba(87, 85, 85, 0.404);
+  text-shadow: 0px 0px 3px rgba(87, 85, 85, 0.24);
 }
 
 .box .content .row2 .cta i {
@@ -116,15 +116,15 @@ body {
 }
 
 .box .content .row2 .clr1 {
-  background-color: rgba(4, 247, 113, 0.87);
+  background-color: rgba(4, 247, 77, 0.932);
 }
 
 .box .content .row2 .clr2 {
-  background: rgba(0, 0, 255, 0.877);
+  background: rgba(0, 140, 255, 0.89);
 }
 
 .box .content .row2 .clr3 {
-  background: rgba(253, 152, 0, 0.842);
+  background: rgba(253, 228, 0, 0.712);
 }
 
 .box .content .row2 .press {
@@ -196,19 +196,19 @@ body {
   -webkit-box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
           box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
   font-size: 2.3rem;
-  text-shadow: 0px 0px 3px rgba(87, 85, 85, 0.404);
+  text-shadow: 0px 0px 3px rgba(87, 85, 85, 0.219);
 }
 
 .box .content .row3 .clr1 {
-  background-color: rgba(4, 247, 113, 0.87);
+  background-color: rgba(4, 247, 77, 0.932);
 }
 
 .box .content .row3 .clr2 {
-  background: rgba(0, 0, 255, 0.877);
+  background: rgba(0, 140, 255, 0.89);
 }
 
 .box .content .row3 .clr3 {
-  background: rgba(253, 152, 0, 0.842);
+  background: rgba(253, 228, 0, 0.712);
 }
 
 .box .content .row3 .press {
