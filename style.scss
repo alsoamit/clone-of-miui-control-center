@@ -1,8 +1,8 @@
 $box1 : rgba(0, 0, 0, 0.4) 0px 30px 90px;
 $box2 : rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
-$clr1 : rgba(3, 201, 92, 0.774);
-$clr2 : rgba(3, 127, 158, 0.904);
-$clr3 : rgba(255, 216, 44, 0.795);
+$clr1 : rgba(4, 247, 113, 0.856);
+$clr2 : rgba(0, 73, 230, 0.904);
+$clr3 : rgb(253, 152, 0);
 
 *{
     box-sizing:border-box;
@@ -88,6 +88,7 @@ body{
                 transition: all 0.3s;
                 overflow: hidden;
                 box-shadow: $box2;
+                text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.404);
 
                 i{
                     font-size: 2.4rem;
@@ -112,7 +113,7 @@ body{
                 background: $clr3;
             }
             .press{
-                animation: press2 0.3s; 
+                animation: press 0.3s; 
             }
         }
 
@@ -150,6 +151,7 @@ body{
                 overflow: hidden;
                 box-shadow: $box2;
                 font-size: 2.3rem;
+                text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.685);
             }
 
             .clr1 {
