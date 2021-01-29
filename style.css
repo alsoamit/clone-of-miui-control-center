@@ -115,20 +115,20 @@ body {
 }
 
 .box .content .row2 .clr1 {
-  background-color: rgba(0, 255, 115, 0.884);
+  background-color: rgba(3, 201, 92, 0.774);
 }
 
 .box .content .row2 .clr2 {
-  background: rgba(0, 183, 255, 0.877);
+  background: rgba(3, 127, 158, 0.904);
 }
 
 .box .content .row2 .clr3 {
-  background: rgba(255, 166, 0, 0.89);
+  background: rgba(255, 216, 44, 0.795);
 }
 
 .box .content .row2 .press {
-  -webkit-animation: press 0.3s;
-          animation: press 0.3s;
+  -webkit-animation: press2 0.3s;
+          animation: press2 0.3s;
 }
 
 .box .content .row3 {
@@ -198,46 +198,20 @@ body {
 }
 
 .box .content .row3 .clr1 {
-  background-color: rgba(0, 255, 115, 0.884);
+  background-color: rgba(3, 201, 92, 0.774);
 }
 
 .box .content .row3 .clr2 {
-  background: rgba(0, 183, 255, 0.877);
+  background: rgba(3, 127, 158, 0.904);
 }
 
 .box .content .row3 .clr3 {
-  background: rgba(255, 166, 0, 0.89);
+  background: rgba(255, 216, 44, 0.795);
 }
 
 .box .content .row3 .press {
   -webkit-animation: press2 0.3s;
           animation: press2 0.3s;
-}
-
-@-webkit-keyframes press {
-  0% {
-  }
-  50% {
-    height: 95%;
-    width: 95%;
-  }
-  100% {
-    height: 100%;
-    width: 100%;
-  }
-}
-
-@keyframes press {
-  0% {
-  }
-  50% {
-    height: 95%;
-    width: 95%;
-  }
-  100% {
-    height: 100%;
-    width: 100%;
-  }
 }
 
 @-webkit-keyframes press2 {

@@ -1,14 +1,19 @@
 $box1 : rgba(0, 0, 0, 0.4) 0px 30px 90px;
 $box2 : rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+$clr1 : rgba(3, 201, 92, 0.774);
+$clr2 : rgba(3, 127, 158, 0.904);
+$clr3 : rgba(255, 216, 44, 0.795);
 
 *{
     box-sizing:border-box;
     padding: 0;
     margin: 0;
 }
+
 html{
     font-size: 10px;
 }
+
 body{
     height: 100vh;
     width: 100wh;
@@ -16,10 +21,10 @@ body{
     font-size: 1.8rem;
     overflow: hidden;
     font-family: 'Maven Pro', sans-serif;
-    
 }
 
 .box{
+
     .overlay{
         position: fixed;
         top: 0;
@@ -30,6 +35,7 @@ body{
         z-index: 1;
         max-width: 60rem;
     }
+
     .content{
         color: rgb(255, 255, 255);
         padding: 5rem 2.5rem;
@@ -43,6 +49,7 @@ body{
         right: 0;
         overflow: hidden;
         max-width: 60rem;
+        
         @media (min-width:500px){
             display: grid;
             grid-template-areas: 'a .''b c';
@@ -62,11 +69,13 @@ body{
                 font-weight: 500;
             }
         }
+
         .row2 {
             display: grid;
             grid-template-columns: 1fr 1fr;
             grid-gap: 2rem;
             grid-area: b;
+
             .cta{
                 height: 7.5rem;
                 min-width: 100%;
@@ -79,9 +88,11 @@ body{
                 transition: all 0.3s;
                 overflow: hidden;
                 box-shadow: $box2;
+
                 i{
                     font-size: 2.4rem;
                 }
+
                 .text{
                     margin: 0 0 0 1rem;
                     .desc{
@@ -90,19 +101,21 @@ body{
                 }
               
             }
+
             .clr1 {
-                background-color: rgba(0, 255, 115, 0.884);
+                background-color: $clr1;
             }
             .clr2{
-                background: rgba(0, 183, 255, 0.877);
+                background: $clr2;
             }
             .clr3{
-                background: rgba(255, 166, 0, 0.89);
+                background: $clr3;
             }
             .press{
-                animation: press 0.3s; 
+                animation: press2 0.3s; 
             }
         }
+
         .row3{
             padding: 3.5rem 0;
             display: grid;
@@ -140,34 +153,24 @@ body{
             }
 
             .clr1 {
-                background-color: rgba(0, 255, 115, 0.884);
+                background-color: $clr1;
             }
             .clr2{
-                background: rgba(0, 183, 255, 0.877);
+                background: $clr2;
             }
             .clr3{
-                background: rgba(255, 166, 0, 0.89);
+                background: $clr3;
             }
             .press{
                 animation: press2 0.3s; 
             }
+
         }
         
     }
-}
-@keyframes press{
-    0%{
 
-    }
-    50%{
-        height: 95%;
-        width: 95%;
-    }
-    100%{
-        height: 100%;
-        width: 100%;
-    }
 }
+
 @keyframes press2{
 
     50%{
