@@ -1,3 +1,6 @@
+$box1 : rgba(0, 0, 0, 0.4) 0px 30px 90px;
+$box2 : rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+
 *{
     box-sizing:border-box;
     padding: 0;
@@ -12,11 +15,13 @@ body{
     background: linear-gradient(to bottom, rgb(47, 68, 78), rgb(88, 7, 88));
     font-size: 1.8rem;
     overflow: hidden;
+    font-family: 'Maven Pro', sans-serif;
+    
 }
 
 .box{
     .overlay{
-        position: absolute;
+        position: fixed;
         top: 0;
         bottom: 0;
         left: 0;
@@ -31,31 +36,49 @@ body{
         z-index: 100;
         height: 100vh;
         width: 100vw;
-        position: absolute;
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
         overflow: hidden;
         max-width: 60rem;
+        @media (min-width:500px){
+            display: grid;
+            grid-template-areas: 'a .''b c';
+            align-items: start;
+            align-content: flex-start;
+            grid-gap: 2rem;
+           
+        }
+      
         .row1{
             margin: 0 0 3rem 0;
+            grid-area: a;
             h1{
                 font-size: 3rem;
                 height: auto;
                 color: white;
+                font-weight: 500;
             }
         }
         .row2 {
             display: grid;
             grid-template-columns: 1fr 1fr;
             grid-gap: 2rem;
+            grid-area: b;
             .cta{
                 height: 7.5rem;
                 min-width: 100%;
-                background: rgba(51, 48, 48, 0.644);
+                background: rgba(77, 71, 71, 0.644);
                 border-radius: 1.6rem;
                 display: flex;
                 justify-content: center;
                 align-items: center;
                 cursor: pointer;
                 transition: all 0.3s;
+                overflow: hidden;
+                box-shadow: $box2;
             }
             .cta1:hover, .cta4:hover{
                 background: rgba(0, 255, 115, 0.884);
@@ -72,14 +95,32 @@ body{
             justify-items: center;
             align-items: center;
             align-content: center;
+            grid-area: c;
+            @media (min-width:500px){
+              padding: 0;
+              grid-template-columns: repeat(3, 1fr);
+              align-content: start;
+            }
+            @media (max-width:300px){
+                grid-template-columns: repeat(3, 1fr);
+            }
+            @media (max-width:250px){
+                grid-template-columns: repeat(2, 1fr);
+            }
             .btns{
                 height: 6.5rem;
                 width: 6.5rem;
                 border-radius: 50%;
-                background: rgba(51, 48, 48, 0.644);
+                background: rgba(77, 71, 71, 0.644);
                 margin: 1rem 0.7rem;
                 cursor: pointer;
                 transition: all 0.3s;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                overflow: hidden;
+                box-shadow: $box2;
+                font-size: 2.3rem;
                 &:hover{
                     background: rgba(255, 166, 0, 0.89);
                 }
