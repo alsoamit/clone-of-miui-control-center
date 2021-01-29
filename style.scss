@@ -1,8 +1,8 @@
 $box1 : rgba(0, 0, 0, 0.4) 0px 30px 90px;
 $box2 : rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
-$clr1 : rgba(4, 247, 113, 0.856);
-$clr2 : rgba(0, 73, 230, 0.904);
-$clr3 : rgb(253, 152, 0);
+$clr1 : rgba(4, 247, 113, 0.87);
+$clr2 : rgba(0, 0, 255, 0.877);
+$clr3 : rgba(253, 152, 0, 0.842);
 
 *{
     box-sizing:border-box;
@@ -31,7 +31,7 @@ body{
         bottom: 0;
         left: 0;
         right: 0;
-        background: rgba(3, 19, 8, 0.562);
+        background: rgba(3, 19, 8, 0.322);
         z-index: 1;
         max-width: 60rem;
     }
@@ -79,7 +79,7 @@ body{
             .cta{
                 height: 7.5rem;
                 min-width: 100%;
-                background: rgba(77, 71, 71, 0.466);
+                background: rgba(131, 127, 127, 0.26);
                 border-radius: 1.6rem;
                 display: flex;
                 justify-content: center;
@@ -141,7 +141,7 @@ body{
                 height: 6.5rem;
                 width: 6.5rem;
                 border-radius: 50%;
-                background: rgba(77, 71, 71, 0.466);
+                background: rgba(131, 127, 127, 0.26);
                 margin: 1rem 0.7rem;
                 cursor: pointer;
                 transition: all 0.3s;

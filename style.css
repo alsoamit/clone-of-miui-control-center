@@ -25,7 +25,7 @@ body {
   bottom: 0;
   left: 0;
   right: 0;
-  background: rgba(3, 19, 8, 0.562);
+  background: rgba(3, 19, 8, 0.322);
   z-index: 1;
   max-width: 60rem;
 }
@@ -83,7 +83,7 @@ body {
 .box .content .row2 .cta {
   height: 7.5rem;
   min-width: 100%;
-  background: rgba(77, 71, 71, 0.466);
+  background: rgba(131, 127, 127, 0.26);
   border-radius: 1.6rem;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -116,15 +116,15 @@ body {
 }
 
 .box .content .row2 .clr1 {
-  background-color: rgba(4, 247, 113, 0.856);
+  background-color: rgba(4, 247, 113, 0.87);
 }
 
 .box .content .row2 .clr2 {
-  background: rgba(0, 73, 230, 0.904);
+  background: rgba(0, 0, 255, 0.877);
 }
 
 .box .content .row2 .clr3 {
-  background: #fd9800;
+  background: rgba(253, 152, 0, 0.842);
 }
 
 .box .content .row2 .press {
@@ -178,7 +178,7 @@ body {
   height: 6.5rem;
   width: 6.5rem;
   border-radius: 50%;
-  background: rgba(77, 71, 71, 0.466);
+  background: rgba(131, 127, 127, 0.26);
   margin: 1rem 0.7rem;
   cursor: pointer;
   -webkit-transition: all 0.3s;
@@ -200,15 +200,15 @@ body {
 }
 
 .box .content .row3 .clr1 {
-  background-color: rgba(4, 247, 113, 0.856);
+  background-color: rgba(4, 247, 113, 0.87);
 }
 
 .box .content .row3 .clr2 {
-  background: rgba(0, 73, 230, 0.904);
+  background: rgba(0, 0, 255, 0.877);
 }
 
 .box .content .row3 .clr3 {
-  background: #fd9800;
+  background: rgba(253, 152, 0, 0.842);
 }
 
 .box .content .row3 .press {
