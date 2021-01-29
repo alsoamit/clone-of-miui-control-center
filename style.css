@@ -59,7 +59,7 @@ body {
 }
 
 .box .content .row2 .cta {
-  height: 8rem;
+  height: 7rem;
   min-width: 100%;
   background: rgba(51, 48, 48, 0.644);
   border-radius: 1.6rem;
@@ -103,8 +103,8 @@ body {
 }
 
 .box .content .row3 .btns {
-  height: 7rem;
-  width: 7rem;
+  height: 6rem;
+  width: 6rem;
   border-radius: 50%;
   background: rgba(51, 48, 48, 0.644);
   margin: 1rem 0.7rem;
